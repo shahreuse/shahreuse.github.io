@@ -77,7 +77,7 @@
   // gallery lightbox
   var lb = document.getElementById('lightbox');
   if (lb && typeof lb.showModal === 'function') {
-    var links = Array.prototype.slice.call(document.querySelectorAll('.photos .ph')), cur = 0,
+    var links = Array.prototype.slice.call(document.querySelectorAll('.gal-item > a')), cur = 0,
         img = lb.querySelector('img'), cap = lb.querySelector('.lb-cap');
     function show(i) {
       cur = (i + links.length) % links.length;
