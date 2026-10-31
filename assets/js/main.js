@@ -77,13 +77,13 @@
   // gallery lightbox
   var lb = document.getElementById('lightbox');
   if (lb && typeof lb.showModal === 'function') {
-    var links = Array.prototype.slice.call(document.querySelectorAll('.gal-item > a')), cur = 0,
-        img = lb.querySelector('img'), cap = lb.querySelector('.lb-cap'), cred = lb.querySelector('.lb-credit');
+    var links = Array.prototype.slice.call(document.querySelectorAll('.photos .ph')), cur = 0,
+        img = lb.querySelector('img'), cap = lb.querySelector('.lb-cap');
     function show(i) {
       cur = (i + links.length) % links.length;
       var a = links[cur];
       img.src = a.getAttribute('href'); img.alt = a.querySelector('img').alt;
-      cap.textContent = a.getAttribute('data-cap'); cred.textContent = a.getAttribute('data-credit');
+      cap.textContent = a.getAttribute('data-cap');
     }
     links.forEach(function (a, i) { a.addEventListener('click', function (e) { e.preventDefault(); show(i); lb.showModal(); }); });
     lb.querySelector('.lb-close').addEventListener('click', function () { lb.close(); });

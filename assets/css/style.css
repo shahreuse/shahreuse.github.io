@@ -346,7 +346,7 @@ table.t td:first-child { font-weight: 600; color: var(--navy); }
 /* footer */
 .site-footer { background: #001B3D; color: #A9BDD3; font-size: .92rem; position: relative; }
 .site-footer::before { content: ""; display: block; height: 5px; background: linear-gradient(90deg, var(--green), var(--lime)); }
-.ft { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1.3fr; gap: clamp(24px, 3vw, 48px); padding: clamp(48px, 6vw, 72px) 0 40px; }
+.ft { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1.3fr; gap: clamp(24px, 3vw, 48px); padding-top: clamp(48px, 6vw, 72px); padding-bottom: 40px; }
 @media (max-width: 1000px) { .ft { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 560px) { .ft { grid-template-columns: 1fr; } }
 .ft h4 { color: #fff; font-size: .8rem; letter-spacing: .16em; text-transform: uppercase; margin-bottom: 18px; }
@@ -360,7 +360,7 @@ table.t td:first-child { font-weight: 600; color: var(--navy); }
 .ft-brand p { max-width: 360px; }
 .ft-contact li { display: flex; gap: 10px; align-items: flex-start; }
 .ft-contact svg { width: 16px; height: 16px; flex: none; margin-top: 4px; color: var(--lime); }
-.ft-bottom { border-top: 1px solid rgba(255,255,255,.1); padding: 22px 0; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; font-size: .82rem; }
+.ft-bottom { border-top: 1px solid rgba(255,255,255,.1); padding-top: 22px; padding-bottom: 22px; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; font-size: .82rem; }
 .ft-bottom a { color: #A9BDD3; text-decoration: none; margin-left: 18px; }
 .ft-bottom a:first-child { margin-left: 0; }
 .ft-bottom a:hover { color: var(--lime); }
@@ -486,3 +486,17 @@ span.nw { white-space: nowrap; display: inline !important; margin: 0 !important;
 .lead, .card p, .step p, .faq .a p { text-wrap: pretty; }
 h1, h2, h3 { text-wrap: balance; }
 .sec-head .lead { max-width: 900px; }
+
+/* simple photo grid */
+.photos { display: grid; grid-template-columns: repeat(2, 1fr); gap: clamp(12px, 2vw, 22px); }
+.photos .ph { display: block; border-radius: var(--radius); overflow: hidden; aspect-ratio: 3 / 2; background: var(--mist); box-shadow: 0 1px 2px rgba(0,39,85,.06); }
+.photos .ph img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s ease; }
+.photos .ph:hover img { transform: scale(1.04); }
+@media (max-width: 640px) { .photos { grid-template-columns: 1fr; } }
+
+/* phones: keep the floating WhatsApp / back-to-top buttons clear of the footer text */
+@media (max-width: 760px) {
+  .ft-bottom { padding-bottom: 96px; flex-direction: column; gap: 10px; }
+  .ft-bottom a { margin: 0 18px 0 0; }
+  .ft-bottom a:last-child { margin-right: 0; }
+}
