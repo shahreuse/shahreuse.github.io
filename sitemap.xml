@@ -1,14 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://shahreuse.github.io/</loc><lastmod>2026-10-31</lastmod><priority>1.0</priority></url>
-  <url><loc>https://shahreuse.github.io/about/</loc><lastmod>2026-10-31</lastmod><priority>0.8</priority></url>
-  <url><loc>https://shahreuse.github.io/what-we-buy/</loc><lastmod>2026-10-31</lastmod><priority>0.8</priority></url>
-  <url><loc>https://shahreuse.github.io/suppliers/</loc><lastmod>2026-10-31</lastmod><priority>0.8</priority></url>
-  <url><loc>https://shahreuse.github.io/wholesale/</loc><lastmod>2026-10-31</lastmod><priority>0.8</priority></url>
-  <url><loc>https://shahreuse.github.io/logistics/</loc><lastmod>2026-10-31</lastmod><priority>0.8</priority></url>
-  <url><loc>https://shahreuse.github.io/faq/</loc><lastmod>2026-10-31</lastmod><priority>0.8</priority></url>
-  <url><loc>https://shahreuse.github.io/gallery/</loc><lastmod>2026-10-31</lastmod><priority>0.8</priority></url>
-  <url><loc>https://shahreuse.github.io/contact/</loc><lastmod>2026-10-31</lastmod><priority>0.8</priority></url>
-  <url><loc>https://shahreuse.github.io/privacy/</loc><lastmod>2026-10-31</lastmod><priority>0.3</priority></url>
-  <url><loc>https://shahreuse.github.io/terms/</loc><lastmod>2026-10-31</lastmod><priority>0.3</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://shahreuse.github.io/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shahreuse.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://shahreuse.github.io/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shahreuse.github.io/"/>
+    <image:image><image:loc>https://shahreuse.github.io/assets/img/srte-emblem-3d.webp</image:loc></image:image>
+    <image:image><image:loc>https://shahreuse.github.io/assets/img/og-image.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://shahreuse.github.io/about/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://shahreuse.github.io/what-we-buy/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://shahreuse.github.io/suppliers/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shahreuse.github.io/suppliers/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://shahreuse.github.io/it/fornitori/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shahreuse.github.io/suppliers/"/>
+  </url>
+  <url>
+    <loc>https://shahreuse.github.io/wholesale/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://shahreuse.github.io/logistics/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://shahreuse.github.io/gallery/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://shahreuse.github.io/assets/img/gallery/karachi-container-port-1920.webp</image:loc></image:image>
+    <image:image><image:loc>https://shahreuse.github.io/assets/img/gallery/used-clothing-market-1920.webp</image:loc></image:image>
+    <image:image><image:loc>https://shahreuse.github.io/assets/img/gallery/used-clothing-bazaar-1920.webp</image:loc></image:image>
+    <image:image><image:loc>https://shahreuse.github.io/assets/img/gallery/karachi-truck-art-1920.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://shahreuse.github.io/faq/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://shahreuse.github.io/contact/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shahreuse.github.io/contact/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://shahreuse.github.io/it/contatti/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shahreuse.github.io/contact/"/>
+  </url>
+  <url>
+    <loc>https://shahreuse.github.io/privacy/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://shahreuse.github.io/terms/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://shahreuse.github.io/it/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shahreuse.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://shahreuse.github.io/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shahreuse.github.io/"/>
+    <image:image><image:loc>https://shahreuse.github.io/assets/img/srte-emblem-3d.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://shahreuse.github.io/it/fornitori/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shahreuse.github.io/suppliers/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://shahreuse.github.io/it/fornitori/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shahreuse.github.io/suppliers/"/>
+  </url>
+  <url>
+    <loc>https://shahreuse.github.io/it/contatti/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shahreuse.github.io/contact/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://shahreuse.github.io/it/contatti/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shahreuse.github.io/contact/"/>
+  </url>
 </urlset>

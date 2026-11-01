@@ -505,3 +505,11 @@ h1, h2, h3 { text-wrap: balance; }
 .gallery.two { grid-template-columns: repeat(2, 1fr); }
 .gallery.two .gal-item > a { aspect-ratio: 3 / 2; }
 @media (max-width: 640px) { .gallery.two { grid-template-columns: 1fr; } }
+
+/* language links + company facts */
+.topbar .tb-r a { font-family: var(--head); font-weight: 700; color: var(--lime); }
+.nav .nav-lang { display: none; }
+@media (max-width: 1400px) { .nav .nav-lang { display: block; } }
+table.t.facts { min-width: 0; }
+table.t.facts td:first-child { width: 30%; white-space: nowrap; }
+@media (max-width: 560px) { table.t.facts td { padding: 11px 12px; font-size: .88rem; } table.t.facts td:first-child { white-space: normal; width: 36%; } }
